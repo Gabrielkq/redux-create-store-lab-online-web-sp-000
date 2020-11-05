@@ -39,7 +39,7 @@ function render() {
 let store = createStore(candyReducer);
 
 
-store.dispatch({type: '@@init'})
+store.dispatch("")
 
 
 // use your createStore function and the functions provided here to create a store
